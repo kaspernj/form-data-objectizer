@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/kaspernj/form-data-objectizer#readme",
   "devDependencies": {
-    "jasmine": "^3.6.4"
+    "jasmine": "^4.0.0"
   }
 }
