@@ -1,6 +1,6 @@
 {
   "name": "form-data-objectizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.cjs",
   "scripts": {
@@ -14,7 +14,7 @@
     "formdata",
     "object"
   ],
-  "author": "k@spernj.org",
+  "author": "kasper@diestoeckels.de",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaspernj/form-data-objectizer/issues"
