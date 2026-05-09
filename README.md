@@ -22,3 +22,7 @@ expect(object).toEqual({
   }
 })
 ```
+
+## Security
+
+Form keys containing `__proto__`, `constructor`, or `prototype` as an exact path segment are rejected to prevent prototype pollution. For example, `__proto__[polluted]` and `constructor[prototype][polluted]` throw an error instead of walking into inherited object prototypes.
